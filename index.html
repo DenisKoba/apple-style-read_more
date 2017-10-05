@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apple Style Block Opener</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+
+
+<div class="b-block js-block" data-id="1">
+    <span class="b-block__text">B Block Text</span>
+    <span class="b-block__expand js-expand" data-id="1">Expand</span>
+</div>
+
+<div class="c-block js-block" data-id="2">
+    <span class="c-block__text">C Block Text</span>
+    <span class="b-block__expand js-expand" data-id="2">Expand</span>
+</div>
+
+
+<div class="b-block-popup js-expand-block" data-id="1">
+    <span class="b-block-popup__text">B Expand Text</span>
+    <span class="b-block-popup__close js-close">Close</span>
+</div>
+
+<div class="c-block-popup js-expand-block" data-id="2">
+    <span class="b-block-popup__text">C Expand Text</span>
+    <span class="c-block-popup__close js-close">Close</span>
+</div>
+
+<div class="background"></div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
